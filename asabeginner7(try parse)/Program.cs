@@ -5,6 +5,7 @@ class Program
     {
         string strnumber = "5652";
         int result = 0;
+        //to reduce the exception or error we use tryparse 
         bool isconversionSucessful = int.TryParse(strnumber, out result);
         if (isconversionSucessful)
         {
